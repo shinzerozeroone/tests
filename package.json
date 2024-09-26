@@ -1,0 +1,21 @@
+{
+  "name": "autotesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-1_1": "node src/lab1-1/lab1-1.js",
+    "test-1_2": "npx mocha src/lab1-2/tests/LambdaTest.js",
+    "test-2": "npx mocha src/lab2/tests/MospolytechTest.js",
+    "test-3": "npx mocha src/lab3/tests/YandexMarketTest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.4.0",
+    "selenium-webdriver": "^4.20.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1"
+  }
+}
